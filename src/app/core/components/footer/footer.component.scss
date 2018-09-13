@@ -1,0 +1,15 @@
+.custom-footer {
+    font-size: 12px;
+    background: #111;
+    color: #999;
+    padding: 20px 6% 20px 6%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    a {
+        color: #999;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

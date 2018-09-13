@@ -1,0 +1,27 @@
+.navbar-nav {
+    padding-left: 7%;
+    padding-right: 7%;
+    justify-content: space-between;
+}
+.navbar {
+    border-bottom: 1px solid  #d6d6d6;
+    border-top: 1px solid  #d6d6d6;
+}
+.nav-item-image {
+    width: 15px;
+    height: 15px;
+    background: rgb(106, 173, 194);
+    display: inline-block;
+}
+.nav-item-title {
+    font-size: 12px;
+    line-height: 1em;
+    color: #b2afaa;
+}
+.nav-item {
+    flex: 1;
+    border-left: 1px solid  #d6d6d6;
+    &:last-child{
+        border-right: 1px solid #d6d6d6;
+    }
+}

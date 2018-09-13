@@ -1,0 +1,43 @@
+.header-top {
+    padding: 15px 6% 15px 6%;
+    margin: 0;
+    background: #00ba8b;
+    color: white;
+}       
+.header-heading {
+    font-size: 20px;
+}
+
+.logout-btn {
+    border-radius: 25px;
+    padding: 2px 13px 4px;
+    font-size: 13px;
+    background: white;
+    color: #19bc9c;
+    border: 0;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+        color: black;
+    }
+}
+
+.session-contain {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    li {
+        margin:0 2px;
+    }
+}
+
+.dropDown {
+    font-family: 'Open Sans';
+    border-radius: 3px;
+    height: 28px;
+    max-width: 110px;
+    margin: 0px;
+    padding: 4px;
+    font-size: 13px;
+}
