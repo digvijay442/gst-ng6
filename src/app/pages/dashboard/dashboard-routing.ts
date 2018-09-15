@@ -5,7 +5,7 @@ import { DahtestComponent } from './dahtest/dahtest.component';
 
 const routes: Routes = [
     {
-      path: '', 
+      path: '',
       component: DashboardBaseComponent
     },
     {

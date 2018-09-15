@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { RootComponent } from './root.component';
 import { CoreModule } from '../core/core.module';
-import { DashboardModule } from '../pages/dashboard/dashboard.module';
+// import { DashboardModule } from '../pages/dashboard/dashboard.module';
 import { RootRoutingModule } from './root-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
@@ -15,8 +15,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   imports: [
     BrowserModule,
     CoreModule,
-    RootRoutingModule,
-    DashboardModule
+    // DashboardModule,
+    RootRoutingModule
   ],
   providers: [],
   bootstrap: [RootComponent]
