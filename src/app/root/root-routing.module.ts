@@ -10,7 +10,7 @@ const routes: Routes = [
   }, 
   {
     path: ROUTES.dashboard.route,
-    loadChildren: '../pages/dashboard/dashboard.module#DashboardModule'
+    loadChildren: ROUTES.dashboard.module
   },
   {
     path : '**',
